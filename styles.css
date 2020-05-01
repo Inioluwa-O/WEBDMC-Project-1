@@ -1,0 +1,407 @@
+.top {
+    display: flex;
+    background-image: url(images/image2.jpg);
+    background-size: 100%;
+    color: black;
+    height: 700px;
+}
+
+.hdiv {
+    margin: 0 120px;
+    padding-top: 27px;
+    flex: 1;
+}
+
+.topee {
+    display: flex;
+}
+
+.ulhead {
+    list-style-type: none;
+    padding-top: 29px;
+    flex: 2;
+}
+
+.ulhead li  {
+    display: inline;
+    margin: 0 9px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.top div p{
+    text-align: left;
+}
+
+.topee div {
+    margin: 0 5px;
+}
+
+.pp {
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    bottom: 170px;
+    left: 170px;
+}
+
+.pp h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.pp p {
+    margin: 20px;
+}
+
+.pp button {
+    border: 3px black;
+    padding: 15px 30px;
+    border-style: solid;
+    background-color: transparent;
+    border-radius: 20px;
+    padding-left: 0px 70px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}
+
+#line {
+    position: absolute;
+    bottom: 370px;
+    width: 100px;
+    left: 150px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+#ttt img {
+    border-radius: 50%;
+}
+
+.seet {
+    display: flex;
+    margin: 0px 150px;
+    text-align: center;
+    justify-content: center;
+}
+
+.seet div {
+    margin: 20px;
+    flex-basis: 50%;
+}
+
+.seet img {
+    border-radius: 50%;
+}
+
+.ppth {
+    font-weight: bold;
+}
+
+.seet div p:last-child{
+    text-align: center;
+}
+
+.ssect h2 {
+    padding-top: 80px;
+    padding-left: 80px;
+    font-size: 30px;
+}
+
+#imgdiv {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    height: 400px;
+}
+
+#imgdiv section img {
+    width: 100%;
+    height: 100%;
+}
+
+#secto {
+    height: 100%;
+}
+
+#img2 {
+    width: 10%;
+}
+
+
+.imgg {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.imgg div {
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+.imgdiv2 {
+    height: 845px;
+}
+
+/* width="100%"  */
+
+.imgdiv2 img {
+    width: 100%;
+    height: 100%;
+}
+
+#uuu {
+    display: flex;
+}
+
+#uuu div {
+    width: 100%;
+    height: 100%;
+}
+
+#uuu div img {
+    width: 100%;
+    height: 100%;
+}
+
+#uuu div button {
+    padding: 20px 40px;
+    margin: 50% 60px;
+    margin-left: 100px;
+    border-radius: 50px;
+    background-color: transparent;
+    border-style: solid;
+}
+
+#ouu {
+    display: flex;
+    flex-direction: column;
+}
+
+#ouu section {
+    height: 50%;
+    background-color: rgb(30, 129, 210);
+}
+
+#oouo {
+    display: flex;
+    width: 100%;
+    background-color: darkblue;
+}
+
+#oouo section img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#oouo #oou {
+    display: flex;
+    width: 100%;
+}
+
+.pouo {
+    display: flex;
+    width: 100%;
+}
+
+.pouo div {
+    flex-basis: 100%;
+}
+
+.bigg {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigg section {
+    margin: 0px 0px;
+}
+
+#oouu img{
+    width: 100%;
+}
+
+#secttt img {
+    width: 100%;
+}
+
+.pricee {
+    display: flex;
+    justify-content: center;
+}
+
+.pricee div {
+    margin: 0px 20px;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.pricee h2 {
+    text-align: center;
+}
+
+.pricee div p {
+    text-align: center;
+}
+
+#pdiv {
+    box-shadow: 0 0 5px;
+    align-self: flex-end;
+}
+
+.pricee li {
+    padding: 8px 1px;
+    padding-right: 50px;
+}
+
+.pricee p {
+    padding: 6px 0px;
+    text-decoration: underline;
+}
+
+.pricee button {
+    margin: 10px 65px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    padding: 20px 60px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: blue;
+}
+
+
+#prdiv {
+    background-color: wheat;
+    align-self: flex-start;
+    margin-left: 40px;
+}
+
+#pridiv {
+    box-shadow: 1px 1px 5px;
+    align-self: flex-end;
+    margin-top: 30px;
+}
+
+#ph2 {
+    margin: 80px 0px;
+    margin-left: 160px;
+    font-size: 30px;
+}
+
+#butt {
+    background-color: blue;
+}
+
+.about {
+    background-color: rgb(104, 185, 223);
+    padding-left: 170px;
+    margin-top: 150px;
+}
+
+.about h2 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.about p {
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.about p:nth-child(odd) {
+    padding-left: 150px;
+}
+
+.about p:last-child {
+    padding-bottom: 90px;
+}
+
+#abimg {
+    width: 25%;
+    position: absolute;
+    height: 200px;
+    left: 850px;
+    top: 1px 600px;
+}
+
+#dimg {
+    width: 100%;
+    position: relative;
+    bottom: 479px;
+    height: 500px;
+}
+
+.contactmee {
+    background-image: url(images/image2.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+}
+
+.contactmee h2 {
+    padding-top: 90px;
+    margin-left: 162px;
+    font-size: 30px;
+}
+
+#formee {
+    margin: 50px 0px;
+}
+
+input {
+    border: none;
+    display: block;
+    margin: 20px 160px;
+    padding: 20px;
+    background-color: cornflowerblue;
+    border-radius: 40px;
+}
+
+#fsub {
+    padding: 20px 83px;
+    font-size: 17px;
+    border: none;
+    display: block;
+    margin: 20px 160px;
+    background-color: cornflowerblue;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: nowrap;
+    color: black;
+    height: 100px;
+}
+
+.foottp {
+    padding-bottom: 20px;
+}
+
+#footp {
+    text-align: center;
+    font-size: small;
+}
+
+.ftter {
+    background-color: cornflowerblue;
+}
+
+#gally {
+    margin: 40px 0px;
+    margin-left: 160px;
+    font-size: 30px;
+}
