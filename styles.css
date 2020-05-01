@@ -1,6 +1,7 @@
 .top {
     display: flex;
     background-image: url(image2.jpg);
+    background-color: red;
     background-size: 100%;
     color: black;
     height: 700px;
